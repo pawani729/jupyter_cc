@@ -6,7 +6,7 @@ from IPython.core.magic_arguments import argument, magic_arguments, parse_argstr
 
 c_compiler = '/usr/bin/gcc'
 cpp_compiler = '/usr/bin/g++'
-nvcc_compiler = ''
+nvcc_compiler = '/usr/local/cuda/bin/nvcc'
 
 @magics_class
 class NVCCCompiler(Magics):
